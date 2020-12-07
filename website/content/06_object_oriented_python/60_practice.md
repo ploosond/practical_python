@@ -96,11 +96,11 @@ Note: we've moved the `number_of_wheels` variable to the subclasses. Our `Car` s
 
 daily_driver = Car("Subaru", "Crosstrek")
 print(f"I drive a {daily_driver.make} {daily_driver.model}. "
-      f"It uses {daily_driver.fuel} and has {daily_driver.number_of_wheels} wheels.")
+print(f"It uses {daily_driver.fuel} and has {daily_driver.number_of_wheels} wheels.")
 
 truck = Truck("Ford", "F350")
 print(f"I also have a {truck.make} {truck.model}. "
-      f"It uses {truck.fuel} and has {truck.number_of_wheels} wheels.")
+print(f"It uses {truck.fuel} and has {truck.number_of_wheels} wheels.")
 ```
 
 ## `type`, `isinstance`, and `issubclass`
